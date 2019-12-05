@@ -13,24 +13,51 @@
         <!-- first child -->
         <!-- nav -->
         <nav class="nav">
-            <h1>hello</h1>
+            <!-- nava header -->
+          <div class="nav__header">
+            <img src="img/logo.svg" alt="logo" class="nav__logo">
+            <span class="nav__btn">
+              <i class="far fa-hand-point-down"></i>
+            </span>
+          </div>
+          <!-- nav links -->
+          <ul class="nav__links">
+            <li>
+              <a href="#" class="nav__single-link">inicio</a>
+            </li>
+            <li>
+              <a href="#" class="nav__single-link">acerca de</a>
+            </li>
+            <li>
+              <a href="#" class="nav__single-link">servicios</a>
+            </li>
+            <li>
+              <a href="#" class="nav__single-link">números</a>
+            </li>
+            <li>
+              <a href="#" class="nav__single-link">proyectos</a>
+            </li>
+            <li>
+              <a href="#" class="nav__single-link">contacto</a>
+            </li>
+          </ul>
            
         </nav>
         <!-- second child -->
         <section class="banner">
             <!-- banner conainer -->
             <div class="banner__container">
-                <h1 class="banner__title">i'm clever techie</h1>
+                <h1 class="banner__title">soy un experto en tecnología</h1>
                 <h1 class="banner__jobs">
-                    developer
+                    desarrollador
                     <span>
                         <i class="fas fa-angle-double-right"></i>
                     </span>
-                    designer
+                    diseñador
                     <span>
                         <i class="fas fa-angle-double-right"></i>
                     </span>
-                    photographer
+                    fotógrafo
                 </h1>
 
             </div>
@@ -46,14 +73,16 @@
           </article>
           <article class="about-info">
             <div class="about-info__container">
-              <h1 class="about-info__title">about me</h1>
+              <h1 class="about-info__title">acerca de mí</h1>
               <p class="about-info__text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus neque porro pariatur corporis quis animi vero laborum
-                temporibus earum nemo nesciunt, similique quas soluta praesentium optio quos illum fuga suscipit.
+                Mi punto fuerte es la programación en lenguajes como php y javascript apoyándome en bases de datos
+                como MySQL. Como diseñador se manejar la paquetería necesaria como el Photoshop y puedo sacar los 
+                proyectos que se necesitan, pero mi visión estética tiende a ser muy técnica por lo cual prefiero
+                apoyarme con un diseñador experto.  Lo mismo pasa con la fotografía.
               </p>
               <div class="about-info__links">
-                <a href="#" class="about-info__single-link dark-btn">hire me</a>
-                <a href="#" class="about-info__single-link light-btn">download CV</a>
+                <a href="#" class="about-info__single-link dark-btn">Contrátame</a>
+                <a href="#" class="about-info__single-link light-btn">Descarga mi CV</a>
               </div>
             </div>
           </article>
@@ -186,99 +215,145 @@
 
       </section>
       <!--  end of numbers section  -->
-
-      <!-- project section -->
-      <section class="projects">
-           <!-- section title -->
-           <div class="section-title">
-            <h1 class="section-title__name">proyectos</h1>
-           </div>
-           <!-- endo of section title-->
-           <div class="projects__center">
-               <!-- single proyect -->
-               <article class="projects__single-project">
-                   <img src="img/portfolio-0.jpeg" alt="portfolio" 
-                        class="projects__single-project-img">
-                    <a href="#" class="projects__single-project-icon">
-                        <i class="fas fa-search"></i>
-                    </a>
-               </article>
-               <!-- en of single proyect -->
-                <!-- single proyect -->
-                <article class="projects__single-project">
-                        <img src="img/portfolio-1.jpeg" alt="portfolio" 
-                             class="projects__single-project-img">
-                         <a href="#" class="projects__single-project-icon">
-                             <i class="fas fa-search"></i>
-                         </a>
-                    </article>
-                    <!-- en of single proyect -->
-                <!-- single proyect -->
-                <article class="projects__single-project">
-                        <img src="img/portfolio-2.jpeg" alt="portfolio" 
-                             class="projects__single-project-img">
-                         <a href="#" class="projects__single-project-icon">
-                             <i class="fas fa-search"></i>
-                         </a>
-                    </article>
-                    <!-- en of single proyect -->
-             <!-- single proyect -->
-             <article class="projects__single-project">
-                    <img src="img/portfolio-3.jpeg" alt="portfolio" 
-                         class="projects__single-project-img">
-                     <a href="#" class="projects__single-project-icon">
-                         <i class="fas fa-search"></i>
-                     </a>
-                </article>
-                <!-- en of single proyect -->
-             <!-- single proyect -->
-             <article class="projects__single-project">
-                    <img src="img/portfolio-4.jpeg" alt="portfolio" 
-                         class="projects__single-project-img">
-                     <a href="#" class="projects__single-project-icon">
-                         <i class="fas fa-search"></i>
-                     </a>
-                </article>
-                <!-- en of single proyect -->
-             <!-- single proyect -->
-             <article class="projects__single-project">
-                    <img src="img/portfolio-5.jpeg" alt="portfolio" 
-                         class="projects__single-project-img">
-                     <a href="#" class="projects__single-project-icon">
-                         <i class="fas fa-search"></i>
-                     </a>
-                </article>
-                <!-- en of single proyect -->
-             <!-- single proyect -->
-             <article class="projects__single-project">
-                    <img src="img/portfolio-6.jpeg" alt="portfolio" 
-                         class="projects__single-project-img">
-                     <a href="#" class="projects__single-project-icon">
-                         <i class="fas fa-search"></i>
-                     </a>
-                </article>
-                <!-- en of single proyect -->
-             <!-- single proyect -->
-             <article class="projects__single-project">
-                    <img src="img/portfolio-7.jpeg" alt="portfolio" 
-                         class="projects__single-project-img">
-                     <a href="#" class="projects__single-project-icon">
-                         <i class="fas fa-search"></i>
-                     </a>
-                </article>
-                <!-- en of single proyect -->
-           </div>
-
+ <!-- projects section -->
+ <section class="projects">
+        <!-- section title -->
+        <div class="section-title">
+          <h1 class="section-title__name">projectos</h1>
+        </div>
+        <!-- end of section title -->
+        <div class="projects__center">
+          <!-- single project -->
+          <div class="projects__single-project">
+            <img src="img/portfolio-0.jpeg" class="projects__single-project-img" alt="portfolio">
+            <a href="#" class="projects__single-project-icon">
+    
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <!-- end of single project -->
+          <!-- single project -->
+          <div class="projects__single-project">
+            <img src="img/portfolio-1.jpeg" class="projects__single-project-img" alt="portfolio">
+            <a href="#" class="projects__single-project-icon">
+    
+              <i class="fas fa-search"></i>
+            </a>
+    
+          </div>
+          <!-- end of single project -->
+          <!-- single project -->
+          <div class="projects__single-project">
+            <img src="img/portfolio-2.jpeg" class="projects__single-project-img" alt="portfolio">
+            <a href="#" class="projects__single-project-icon">
+    
+              <i class="fas fa-search"></i>
+            </a>
+    
+          </div>
+          <!-- end of single project -->
+          <!-- single project -->
+          <div class="projects__single-project">
+            <img src="img/portfolio-3.jpeg" class="projects__single-project-img" alt="portfolio">
+            <a href="#" class="projects__single-project-icon">
+    
+              <i class="fas fa-search"></i>
+            </a>
+    
+          </div>
+          <!-- end of single project -->
+          <!-- single project -->
+          <div class="projects__single-project">
+            <img src="img/portfolio-4.jpeg" class="projects__single-project-img" alt="portfolio">
+            <a href="#" class="projects__single-project-icon">
+    
+              <i class="fas fa-search"></i>
+            </a>
+    
+          </div>
+          <!-- end of single project -->
+          <!-- single project -->
+          <div class="projects__single-project">
+            <img src="img/portfolio-5.jpeg" class="projects__single-project-img" alt="portfolio">
+            <a href="#" class="projects__single-project-icon">
+    
+              <i class="fas fa-search"></i>
+            </a>
+    
+          </div>
+          <!-- end of single project -->
+          <!-- single project -->
+          <div class="projects__single-project">
+            <img src="img/portfolio-6.jpeg" class="projects__single-project-img" alt="portfolio">
+            <a href="#" class="projects__single-project-icon">
+    
+              <i class="fas fa-search"></i>
+            </a>
+    
+          </div>
+          <!-- end of single project -->
+          <!-- single project -->
+          <div class="projects__single-project">
+            <img src="img/portfolio-7.jpeg" class="projects__single-project-img" alt="portfolio">
+            <a href="#" class="projects__single-project-icon">
+    
+              <i class="fas fa-search"></i>
+            </a>
+    
+          </div>
+          <!-- end of single project -->
+        </div>
       </section>
-      <!-- en of project section -->
-
-<h1>Pal Final</h1>
-<h1>Pal Final</h1>
-<h1>Pal Final</h1>
-<h1>Pal Final</h1>
-<h1>Pal Final</h1>
-<h1>Pal Final</h1>
-<h1>Pal Final</h1>
+      <!--end of  projects section -->
+      <!-- contact section -->
+      <section class="contact">
+        <!-- section title -->
+        <div class="section-title">
+          <h1 class="section-title__name">contacto</h1>
+        </div>
+        <!-- end of section title -->
+        <div class="contact__center">
+          <form>
+            <!-- form header -->
+            <div class="contact__header">
+              <input type="text" class='contact__name' name="" id="" placeholder="Nombre">
+    
+              <input type="email" class='contact__email' name="" id="" placeholder="Email">
+            </div>
+            <!-- form textarea -->
+            <textarea name="" class="contact__textarea" id="" cols="30" rows="10" placeholder="¿En qué puedo ayudarte?"></textarea>
+            <button type="submit" class="contact__btn">
+              <span class="contact__icon">
+                <i class="fas fa-plane"></i>
+              </span>
+              send message</button>
+          </form>
+        </div>
+    
+      </section>
+      <!-- end of contact section -->
+      <!-- footer -->
+      <footer class="footer">
+        <div class="footer__icons">
+          <a href="#" class="footer__single-icon">
+    
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" class="footer__single-icon">
+    
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="footer__single-icon">
+    
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="footer__single-icon">
+    
+            <i class="fab fa-linkedin"></i>
+          </a>
+    
+        </div>
+      </footer>
 
 
 
